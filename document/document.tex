@@ -1,0 +1,40 @@
+\documentclass[a4paper,16pt]{article}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{sectsty}
+\sectionfont{\huge\bfseries}
+\subsectionfont{\LARGE\bfseries}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{subcaption}
+\lstset{language=Matlab,basicstyle=\ttfamily\LARGE}
+\begin{document}
+	
+	\pagenumbering{roman}
+	
+	\tableofcontents
+	
+	\newpage
+	
+	\section{Assignment 1}
+	\vspace{0.2in}
+	\subsection{Negative of an image}
+	\indent	\lstinputlisting{negate.m}
+	\begin{figure}[h!]
+		\begin{subfigure}[h]{0.4\linewidth}
+			\includegraphics[width=\linewidth]{original}
+			\caption{Original}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[h]{0.4\linewidth}
+			\includegraphics[width=\linewidth]{negative}
+			\caption{Negative}
+		\end{subfigure}%
+		\caption{a normal and a negative image}
+	\end{figure}
+	\newpage
+	\section{Assignment 2}
+	\vspace{0.2in}
+	\subsection{Plotting the histogram of an image}
+	\subsection{histogram equalization}
+	
+\end{document}
