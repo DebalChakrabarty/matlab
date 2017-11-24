@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.25)  25 NOV 2017 03:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.25)  25 NOV 2017 03:42
 entering extended mode
 **./document.tex
 (document.tex
@@ -56,6 +56,22 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen111
+\captionmargin@=\dimen112
+\captionwidth=\dimen113
+\caption@tempdima=\dimen114
+\caption@indent=\dimen115
+\caption@parindent=\dimen116
+\caption@hangindent=\dimen117
+)
+\c@ContinuedFloat=\count90
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -73,27 +89,27 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
 File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen111
-\Gin@req@width=\dimen112
+\Gin@req@height=\dimen118
+\Gin@req@width=\dimen119
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
-\lst@mode=\count90
+\lst@mode=\count91
 \lst@gtempboxa=\box26
 \lst@token=\toks16
-\lst@length=\count91
-\lst@currlwidth=\dimen113
-\lst@column=\count92
-\lst@pos=\count93
-\lst@lostspace=\dimen114
-\lst@width=\dimen115
-\lst@newlines=\count94
-\lst@lineno=\count95
-\lst@maxwidth=\dimen116
+\lst@length=\count92
+\lst@currlwidth=\dimen120
+\lst@column=\count93
+\lst@pos=\count94
+\lst@lostspace=\dimen121
+\lst@width=\dimen122
+\lst@newlines=\count95
+\lst@lineno=\count96
+\lst@maxwidth=\dimen123
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count96
-\lst@skipnumbers=\count97
+\c@lstnumber=\count97
+\lst@skipnumbers=\count98
 \lst@framebox=\box27
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
@@ -103,24 +119,6 @@ Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
 Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
-Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen117
-\captionmargin@=\dimen118
-\captionwidth=\dimen119
-\caption@tempdima=\dimen120
-\caption@indent=\dimen121
-\caption@parindent=\dimen122
-\caption@hangindent=\dimen123
-)
-\c@ContinuedFloat=\count98
-Package caption Info: listings package is loaded.
-)
 \c@subfigure=\count99
 \c@subtable=\count100
 )
@@ -134,18 +132,18 @@ LaTeX Warning: Unused global option(s):
 (document.aux)
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -181,6 +179,9 @@ LaTeX Font Info:    ... okay on input line 10.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count101
@@ -243,8 +244,6 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 \c@lstlisting=\count107
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: End \AtBeginDocument code.
 
 (document.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -264,35 +263,50 @@ LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <17.28> not available
 <original.png, id=8, 386.19281pt x 385.44pt>
 File: original.png Graphic file (type png)
 <use original.png>
-Package pdftex.def Info: original.png  used on input line 24. on input line 24.
+Package pdftex.def Info: original.png  used on input line 26. on input line 26.
 
 Package pdftex.def Info: Requested size: 198.5291pt x 198.1421pt on input line 
-24.
+26.
 <negative.png, id=9, 385.44pt x 384.6872pt>
 File: negative.png Graphic file (type png)
 <use negative.png>
-Package pdftex.def Info: negative.png  used on input line 29. on input line 29.
+Package pdftex.def Info: negative.png  used on input line 31. on input line 31.
 
 Package pdftex.def Info: Requested size: 198.5291pt x 198.13666pt on input line
- 29.
- [2 <./original.png> <./negative.png>] [3] (document.aux) ) 
+ 31.
+ [2 <./original.png> <./negative.png>] (his.m)
+File: original.png Graphic file (type png)
+<use original.png>
+Package pdftex.def Info: original.png  used on input line 45. on input line 45.
+
+Package pdftex.def Info: Requested size: 198.5291pt x 198.1421pt on input line 
+45.
+<histogram.png, id=18, 421.575pt x 316.18124pt>
+File: histogram.png Graphic file (type png)
+<use histogram.png>
+Package pdftex.def Info: histogram.png  used on input line 49. on input line 49
+.
+Package pdftex.def Info: Requested size: 277.94376pt x 208.46315pt on input lin
+e 49.
+ [3 <./histogram.png (PNG copy)>] [4] (document.aux) ) 
 Here is how much of TeX's memory you used:
- 4940 strings out of 493312
- 73898 string characters out of 3138898
- 163427 words of memory out of 3000000
- 8454 multiletter control sequences out of 15000+200000
+ 4950 strings out of 493312
+ 74039 string characters out of 3138898
+ 163433 words of memory out of 3000000
+ 8461 multiletter control sequences out of 15000+200000
  6408 words of font info for 24 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,7n,40p,305b,1468s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmtt12.pfb>
-Output written on document.pdf (3 pages, 1528711 bytes).
+ 41i,7n,40p,277b,1468s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pf
+b>
+Output written on document.pdf (4 pages, 1552030 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
+ 44 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
