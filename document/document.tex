@@ -1,14 +1,26 @@
 \documentclass[a4paper,16pt]{article}
-\usepackage[margin=0.7in]{geometry}
+\usepackage[margin=0.8in]{geometry}
 \usepackage{sectsty}
 \sectionfont{\huge\bfseries}
 \subsectionfont{\LARGE\bfseries}
+\usepackage{courier}
 \usepackage{caption}
 \captionsetup{font=large,labelfont=large}
 \usepackage{graphicx}
 \usepackage{listings}
 \usepackage{subcaption}
-\lstset{language=Matlab,basicstyle=\ttfamily\LARGE}
+\lstset{language=Matlab,
+	basicstyle=\ttfamily\Large,
+	numbers=left,
+	tabsize=1,
+	stepnumber=1,
+	breaklines=true,
+	frame=single,
+	xleftmargin=19pt}
+\usepackage{tocloft}
+\renewcommand\cftsecfont{\LARGE}
+\renewcommand\cftsecpagefont{\LARGE}
+\renewcommand\cftsecafterpnum{\par\addvspace{6pt}}
 \begin{document}
 	
 	\pagenumbering{roman}
@@ -45,13 +57,43 @@
 				\includegraphics[width=\linewidth]{original}
 				\caption{Original Image}
 			\end{subfigure}
-			\begin{subfigure}[h]{0.56\linewidth}
+			\begin{subfigure}[h]{0.7\linewidth}
 				\includegraphics[width=\linewidth]{histogram}
 				\caption{Histogram of the Image}
 			\end{subfigure}%
 			\caption{Image \& histogram of the image}
 		\end{figure}
 	\newpage
-	\subsection{histogram equalization}
+	\subsection{Histogram equalization}
+	\vspace{0.3in}
+	\lstinputlisting{histequal.m}
+	\newpage
 	
+	\begin{figure}[h!]
+		\begin{subfigure}[h]{0.62\linewidth}
+			\includegraphics[width=0.82\linewidth,scale=0.3,height=0.5\linewidth]{hist1}
+			\caption{Original Histogram}
+		\end{subfigure}
+		\begin{subfigure}[h]{0.62\linewidth}
+			\includegraphics[scale=0.4,width=0.8\linewidth,height=0.5\linewidth]{hist2}
+			\caption{Histogram after equalization}
+		\end{subfigure}%
+		\caption{Histograms of the images}
+	\end{figure}
+	\begin{figure}[h!]
+		\begin{subfigure}[h]{0.6\linewidth}
+			\includegraphics[scale=1]{Lenna}
+			\caption{Original Image}
+		\end{subfigure}
+		\begin{subfigure}[h]{0.6\linewidth}
+			\includegraphics[scale=0.76]{myGray}
+			\caption{Equalized image}
+		\end{subfigure}%
+		\caption{Image \& histogram of the image}
+	\end{figure}
+	\newpage
+	\section{Assignment 3}
+	\vspace{0.2in}
+	\subsection{Mean Filter}
+		
 \end{document}
