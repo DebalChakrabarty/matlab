@@ -1,14 +1,16 @@
 \documentclass[a4paper,16pt]{article}
 \usepackage[margin=0.8in]{geometry}
 \usepackage{sectsty}
-\sectionfont{\huge\bfseries}
-\subsectionfont{\LARGE\bfseries}
+\sectionfont{\Huge\bfseries}
+\subsectionfont{\huge\bfseries}
 \usepackage{courier}
 \usepackage{caption}
 \captionsetup{font=large,labelfont=large}
 \usepackage{graphicx}
 \usepackage{listings}
 \usepackage{subcaption}
+\usepackage{setspace}
+
 \lstset{language=Matlab,
 	basicstyle=\ttfamily\Large,
 	numbers=left,
@@ -16,17 +18,26 @@
 	stepnumber=1,
 	breaklines=true,
 	frame=single,
-	xleftmargin=19pt}
+	xleftmargin=19pt,
+	keywords={imread,rgb2gray,for,end,plot,imshow,imtool,size,zeros,imwrite}}
 \usepackage{tocloft}
 \renewcommand\cftsecfont{\LARGE}
 \renewcommand\cftsecpagefont{\LARGE}
 \renewcommand\cftsecafterpnum{\par\addvspace{6pt}}
+
 \begin{document}
-	
-	\pagenumbering{roman}
-	
-	\tableofcontents
-	
+	{
+		\doublespacing
+		\pagenumbering{roman}
+		{
+			\renewcommand\contentsname{\Huge Contents}
+			\renewcommand\cftsubsecfont{\large}
+			\vspace{0.4in}
+			\doublespacing
+			\tableofcontents
+			\addtocontents{toc}{~\hfill\textbf{\LARGE Page}\par}
+		}
+	}
 	\newpage
 	
 	\section{Assignment 1}
@@ -57,7 +68,8 @@
 				\includegraphics[width=\linewidth]{original}
 				\caption{Original Image}
 			\end{subfigure}
-			\begin{subfigure}[h]{0.7\linewidth}
+			\hfill
+			\begin{subfigure}[h]{0.52\linewidth}
 				\includegraphics[width=\linewidth]{histogram}
 				\caption{Histogram of the Image}
 			\end{subfigure}%
@@ -91,9 +103,41 @@
 		\end{subfigure}%
 		\caption{Image \& histogram of the image}
 	\end{figure}
-	\newpage
 	\section{Assignment 3}
-	\vspace{0.2in}
 	\subsection{Mean Filter}
-		
+	\lstinputlisting{fil.m}
+	\begin{figure}[b!]
+		\begin{subfigure}[h]{0.5\linewidth}
+			\includegraphics[width=\linewidth]{grayscale}
+			\caption{Original Image}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[h]{0.5\linewidth}
+			\includegraphics[width=\linewidth]{meanfilter}
+			\caption{Mean filtered image}
+		\end{subfigure}%
+		\caption{Normal \& Filtered Image}
+	\end{figure}
+	\newpage
+	\subsection{Median Filter}
+	\vspace{0.2in}
+	\lstinputlisting{medfilter.m}
+		\begin{figure}[h!]
+		\begin{subfigure}[h]{0.5\linewidth}
+			\includegraphics[width=\linewidth]{salt}
+			\caption{Original Image}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[h]{0.5\linewidth}
+			\includegraphics[width=\linewidth]{medianfilt}
+			\caption{Median filtered image}
+		\end{subfigure}%
+		\caption{Noisy \& Filtered Image}
+	\end{figure}
+	\newpage
+	\subsection{Min Filter}
+	\vspace{0.2in}
+	\newpage
+	\subsection{Max Filter}
+	\vspace{0.2in}
 \end{document}

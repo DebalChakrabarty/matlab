@@ -1,7 +1,11 @@
+\nobreakspace {}\hfill \textbf {\relax \fontsize {17.28}{22}\selectfont Page}\par 
 \contentsline {section}{\numberline {1}Assignment 1}{ii}
 \contentsline {subsection}{\numberline {1.1}Negative of an image}{ii}
 \contentsline {section}{\numberline {2}Assignment 2}{iii}
 \contentsline {subsection}{\numberline {2.1}Plotting the histogram of an image}{iii}
 \contentsline {subsection}{\numberline {2.2}Histogram equalization}{iv}
-\contentsline {section}{\numberline {3}Assignment 3}{vi}
-\contentsline {subsection}{\numberline {3.1}Mean Filter}{vi}
+\contentsline {section}{\numberline {3}Assignment 3}{v}
+\contentsline {subsection}{\numberline {3.1}Mean Filter}{v}
+\contentsline {subsection}{\numberline {3.2}Median Filter}{vii}
+\contentsline {subsection}{\numberline {3.3}Min Filter}{viii}
+\contentsline {subsection}{\numberline {3.4}Max Filter}{ix}
