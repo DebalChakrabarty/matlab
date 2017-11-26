@@ -10,7 +10,13 @@
 \usepackage{listings}
 \usepackage{subcaption}
 \usepackage{setspace}
-
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\pagestyle{fancy}
+\fancyfoot{} % clear all footer fields
+\fancyfoot[LE,RO]{\thepage}           % page number in "outer" position of footer line
+\fancyfoot[RE,LO]{} % other info in "inner" position of footer line
+\rfoot{Page \thepage \hspace{1pt} of \pageref{LastPage}}
 \lstset{language=Matlab,
 	basicstyle=\ttfamily\Large,
 	numbers=left,
@@ -19,7 +25,7 @@
 	breaklines=true,
 	frame=single,
 	xleftmargin=19pt,
-	keywords={imread,rgb2gray,for,end,plot,imshow,imtool,size,zeros,imwrite,subplot,double,uint8,title,max,min}}
+	keywords={imread,rgb2gray,for,end,plot,imshow,imtool,size,zeros,imwrite,subplot,double,uint8,title,max,min,abs}}
 \usepackage{tocloft}
 \renewcommand\cftsecfont{\LARGE}
 \renewcommand\cftsecpagefont{\LARGE}
@@ -30,7 +36,7 @@
 		
 		\doublespacing
 		
-		\pagenumbering{roman}
+		\pagenumbering{arabic}
 		{
 			\renewcommand\contentsname{\Huge Contents}
 			\renewcommand\cftsubsecfont{\large}
@@ -178,6 +184,7 @@
 			\caption{Horizontal edge}
 		\end{subfigure}
 		\hfill
+		\centering
 		\begin{subfigure}[h!]{0.45\linewidth}
 			\includegraphics[width=\linewidth]{vertical}
 			\caption{Vertical edge}
@@ -187,6 +194,27 @@
 	\newpage
 	
 	\subsection{Segmentation}
-	
+	\vspace{0.2in}
+	\lstinputlisting{segmentation.m}
+	\vspace{0.8in}
+	\begin{figure}[h!]
+		\begin{subfigure}[h!]{0.45\linewidth}
+			\includegraphics[width=\linewidth]{ballg}
+			\caption{Original grayscale image}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[h!]{0.45\linewidth}
+			\includegraphics[width=\linewidth]{ballth}
+			\caption{Foreground region}
+		\end{subfigure}
+		\hfill
+		\centering
+		\begin{subfigure}[h!]{0.45\linewidth}
+			
+			\includegraphics[width=\linewidth]{ballthl}
+			\caption{foreground object region}
+		\end{subfigure}%
+		\caption{Min \& Max Filtered Images}
+	\end{figure}
 	\newpage
 \end{document}

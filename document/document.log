@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.25)  26 NOV 2017 14:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.25)  26 NOV 2017 21:01
 entering extended mode
 **./document.tex
 (document.tex
@@ -128,45 +128,69 @@ Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip43
+\f@nch@O@elh=\skip44
+\f@nch@O@erh=\skip45
+\f@nch@O@olh=\skip46
+\f@nch@O@orh=\skip47
+\f@nch@O@elf=\skip48
+\f@nch@O@erf=\skip49
+\f@nch@O@olf=\skip50
+\f@nch@O@orf=\skip51
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+)
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 17.
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 18.
+
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tocloft\tocloft.sty"
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 51.
-\cftparskip=\skip43
-\cftbeforetoctitleskip=\skip44
-\cftaftertoctitleskip=\skip45
-\cftbeforepartskip=\skip46
-\cftpartnumwidth=\skip47
-\cftpartindent=\skip48
-\cftbeforesecskip=\skip49
-\cftsecindent=\skip50
-\cftsecnumwidth=\skip51
-\cftbeforesubsecskip=\skip52
-\cftsubsecindent=\skip53
-\cftsubsecnumwidth=\skip54
-\cftbeforesubsubsecskip=\skip55
-\cftsubsubsecindent=\skip56
-\cftsubsubsecnumwidth=\skip57
-\cftbeforeparaskip=\skip58
-\cftparaindent=\skip59
-\cftparanumwidth=\skip60
-\cftbeforesubparaskip=\skip61
-\cftsubparaindent=\skip62
-\cftsubparanumwidth=\skip63
-\cftbeforeloftitleskip=\skip64
-\cftafterloftitleskip=\skip65
-\cftbeforefigskip=\skip66
-\cftfigindent=\skip67
-\cftfignumwidth=\skip68
+\cftparskip=\skip52
+\cftbeforetoctitleskip=\skip53
+\cftaftertoctitleskip=\skip54
+\cftbeforepartskip=\skip55
+\cftpartnumwidth=\skip56
+\cftpartindent=\skip57
+\cftbeforesecskip=\skip58
+\cftsecindent=\skip59
+\cftsecnumwidth=\skip60
+\cftbeforesubsecskip=\skip61
+\cftsubsecindent=\skip62
+\cftsubsecnumwidth=\skip63
+\cftbeforesubsubsecskip=\skip64
+\cftsubsubsecindent=\skip65
+\cftsubsubsecnumwidth=\skip66
+\cftbeforeparaskip=\skip67
+\cftparaindent=\skip68
+\cftparanumwidth=\skip69
+\cftbeforesubparaskip=\skip70
+\cftsubparaindent=\skip71
+\cftsubparanumwidth=\skip72
+\cftbeforeloftitleskip=\skip73
+\cftafterloftitleskip=\skip74
+\cftbeforefigskip=\skip75
+\cftfigindent=\skip76
+\cftfignumwidth=\skip77
 \c@lofdepth=\count101
 \c@lotdepth=\count102
-\cftbeforelottitleskip=\skip69
-\cftafterlottitleskip=\skip70
-\cftbeforetabskip=\skip71
-\cfttabindent=\skip72
-\cfttabnumwidth=\skip73
+\cftbeforelottitleskip=\skip78
+\cftafterlottitleskip=\skip79
+\cftbeforetabskip=\skip80
+\cfttabindent=\skip81
+\cfttabnumwidth=\skip82
 )
 
 LaTeX Warning: Unused global option(s):
@@ -175,18 +199,18 @@ LaTeX Warning: Unused global option(s):
 (document.aux)
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -287,6 +311,9 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 \c@lstlisting=\count109
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 34.
 
 (document.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -300,7 +327,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {C:/Users/ratul/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 48.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 54.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) (negate.m
@@ -310,168 +337,193 @@ LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <14.4> not available
 <original.png, id=9, 386.19281pt x 385.44pt>
 File: original.png Graphic file (type png)
 <use original.png>
-Package pdftex.def Info: original.png  used on input line 52. on input line 52.
+Package pdftex.def Info: original.png  used on input line 58. on input line 58.
 
 Package pdftex.def Info: Requested size: 192.74724pt x 192.37253pt on input lin
-e 52.
+e 58.
 <negative.png, id=10, 385.44pt x 384.6872pt>
 File: negative.png Graphic file (type png)
 <use negative.png>
-Package pdftex.def Info: negative.png  used on input line 57. on input line 57.
+Package pdftex.def Info: negative.png  used on input line 63. on input line 63.
 
 Package pdftex.def Info: Requested size: 192.74724pt x 192.3666pt on input line
- 57.
+ 63.
 
 [2 <./original.png> <./negative.png>] (his.m)
 File: original.png Graphic file (type png)
 <use original.png>
-Package pdftex.def Info: original.png  used on input line 71. on input line 71.
+Package pdftex.def Info: original.png  used on input line 77. on input line 77.
 
 Package pdftex.def Info: Requested size: 173.78514pt x 173.4464pt on input line
- 71.
-<histogram.png, id=19, 421.575pt x 316.18124pt>
+ 77.
+<histogram.png, id=20, 421.575pt x 316.18124pt>
 File: histogram.png Graphic file (type png)
 <use histogram.png>
-Package pdftex.def Info: histogram.png  used on input line 76. on input line 76
+Package pdftex.def Info: histogram.png  used on input line 82. on input line 82
 .
 Package pdftex.def Info: Requested size: 274.67253pt x 206.00746pt on input lin
-e 76.
+e 82.
  [3 <./histogram.png (PNG copy)>]
 (histequal.m) [4]
-<hist1.png, id=26, 421.575pt x 316.18124pt>
+<hist1.png, id=27, 421.575pt x 316.18124pt>
 File: hist1.png Graphic file (type png)
 <use hist1.png>
-Package pdftex.def Info: hist1.png  used on input line 89. on input line 89.
+Package pdftex.def Info: hist1.png  used on input line 95. on input line 95.
 Package pdftex.def Info: Requested size: 126.47346pt x 94.8551pt on input line 
-89.
-<hist2.png, id=27, 1445.4pt x 725.71124pt>
+95.
+<hist2.png, id=28, 1445.4pt x 725.71124pt>
 File: hist2.png Graphic file (type png)
 <use hist2.png>
-Package pdftex.def Info: hist2.png  used on input line 93. on input line 93.
+Package pdftex.def Info: hist2.png  used on input line 99. on input line 99.
 Package pdftex.def Info: Requested size: 578.14977pt x 290.27936pt on input lin
-e 93.
+e 99.
 
-Overfull \hbox (117.8676pt too wide) in paragraph at lines 88--96
+Overfull \hbox (117.8676pt too wide) in paragraph at lines 94--102
 []$[]$ $[]$ 
  []
 
-<Lenna.png, id=28, 192.72pt x 192.72pt>
+<Lenna.png, id=29, 192.72pt x 192.72pt>
 File: Lenna.png Graphic file (type png)
 <use Lenna.png>
-Package pdftex.def Info: Lenna.png  used on input line 100. on input line 100.
+Package pdftex.def Info: Lenna.png  used on input line 106. on input line 106.
 Package pdftex.def Info: Requested size: 192.71951pt x 192.71951pt on input lin
-e 100.
-<myGray.png, id=29, 256.96pt x 256.96pt>
+e 106.
+<myGray.png, id=30, 256.96pt x 256.96pt>
 File: myGray.png Graphic file (type png)
 <use myGray.png>
-Package pdftex.def Info: myGray.png  used on input line 105. on input line 105.
+Package pdftex.def Info: myGray.png  used on input line 111. on input line 111.
 
 Package pdftex.def Info: Requested size: 195.2877pt x 195.2877pt on input line 
-105.
+111.
 
-Overfull \hbox (98.60316pt too wide) in paragraph at lines 99--108
+Overfull \hbox (98.60316pt too wide) in paragraph at lines 105--114
 []$[]$  $[]$ 
  []
 
 (fil.m [5 <./hist1.png (PNG copy)> <./hist2.png (PNG copy)> <./Lenna.png> <./my
 Gray.png (PNG copy)>])
-<grayscale.png, id=34, 513.92pt x 513.92pt>
+<grayscale.png, id=35, 513.92pt x 513.92pt>
 File: grayscale.png Graphic file (type png)
 <use grayscale.png>
-Package pdftex.def Info: grayscale.png  used on input line 115. on input line 1
-15.
+Package pdftex.def Info: grayscale.png  used on input line 121. on input line 1
+21.
 Package pdftex.def Info: Requested size: 216.84248pt x 216.84082pt on input lin
-e 115.
-<meanfilter.png, id=35, 386.94562pt x 386.94562pt>
+e 121.
+<meanfilter.png, id=36, 386.94562pt x 386.94562pt>
 File: meanfilter.png Graphic file (type png)
 <use meanfilter.png>
-Package pdftex.def Info: meanfilter.png  used on input line 120. on input line 
-120.
+Package pdftex.def Info: meanfilter.png  used on input line 126. on input line 
+126.
 Package pdftex.def Info: Requested size: 216.84248pt x 216.84158pt on input lin
-e 120.
+e 126.
  [6 <./grayscale.png (PNG copy)> <./meanfilter.png>]
 (medfilter.m
 LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <14.4> not available
 (Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 3.
 )
-<salt.png, id=40, 513.92pt x 513.92pt>
+<salt.png, id=41, 513.92pt x 513.92pt>
 File: salt.png Graphic file (type png)
 <use salt.png>
-Package pdftex.def Info: salt.png  used on input line 131. on input line 131.
+Package pdftex.def Info: salt.png  used on input line 137. on input line 137.
 Package pdftex.def Info: Requested size: 216.84248pt x 216.84082pt on input lin
-e 131.
-<medianfilt.png, id=41, 515.9275pt x 515.9275pt>
+e 137.
+<medianfilt.png, id=42, 515.9275pt x 515.9275pt>
 File: medianfilt.png Graphic file (type png)
 <use medianfilt.png>
-Package pdftex.def Info: medianfilt.png  used on input line 136. on input line 
-136.
+Package pdftex.def Info: medianfilt.png  used on input line 142. on input line 
+142.
 Package pdftex.def Info: Requested size: 216.84248pt x 216.83765pt on input lin
-e 136.
+e 142.
  [7 <./salt.png (PNG copy)> <./medianfilt.png (PNG copy)>]
 (maxminfilter.m)
 File: grayscale.png Graphic file (type png)
 <use grayscale.png>
-Package pdftex.def Info: grayscale.png  used on input line 148. on input line 1
-48.
+Package pdftex.def Info: grayscale.png  used on input line 154. on input line 1
+54.
 Package pdftex.def Info: Requested size: 144.5641pt x 144.56316pt on input line
- 148.
-<maxfilter.png, id=47, 515.9275pt x 515.9275pt>
+ 154.
+<maxfilter.png, id=48, 515.9275pt x 515.9275pt>
 File: maxfilter.png Graphic file (type png)
 <use maxfilter.png>
-Package pdftex.def Info: maxfilter.png  used on input line 153. on input line 1
-53.
+Package pdftex.def Info: maxfilter.png  used on input line 159. on input line 1
+59.
 Package pdftex.def Info: Requested size: 144.5641pt x 144.56105pt on input line
- 153.
-<minfilter.png, id=48, 515.9275pt x 515.9275pt>
+ 159.
+<minfilter.png, id=49, 515.9275pt x 515.9275pt>
 File: minfilter.png Graphic file (type png)
 <use minfilter.png>
-Package pdftex.def Info: minfilter.png  used on input line 158. on input line 1
-58.
+Package pdftex.def Info: minfilter.png  used on input line 164. on input line 1
+64.
 Package pdftex.def Info: Requested size: 144.5641pt x 144.56105pt on input line
- 158.
+ 164.
  [8 <./maxfilter.png (PNG copy)> <./minfilter.png (PNG copy)>]
 (edge.m [9])
 File: grayscale.png Graphic file (type png)
 <use grayscale.png>
-Package pdftex.def Info: grayscale.png  used on input line 172. on input line 1
-72.
+Package pdftex.def Info: grayscale.png  used on input line 178. on input line 1
+78.
 Package pdftex.def Info: Requested size: 216.84248pt x 216.84082pt on input lin
-e 172.
-<horizontal.png, id=55, 515.9275pt x 515.9275pt>
+e 178.
+<horizontal.png, id=56, 515.9275pt x 515.9275pt>
 File: horizontal.png Graphic file (type png)
 <use horizontal.png>
-Package pdftex.def Info: horizontal.png  used on input line 177. on input line 
-177.
+Package pdftex.def Info: horizontal.png  used on input line 183. on input line 
+183.
 Package pdftex.def Info: Requested size: 216.84248pt x 216.83765pt on input lin
-e 177.
-<vertical.png, id=56, 515.9275pt x 515.9275pt>
+e 183.
+<vertical.png, id=57, 515.9275pt x 515.9275pt>
 File: vertical.png Graphic file (type png)
 <use vertical.png>
-Package pdftex.def Info: vertical.png  used on input line 182. on input line 18
-2.
+Package pdftex.def Info: vertical.png  used on input line 189. on input line 18
+9.
 Package pdftex.def Info: Requested size: 216.84248pt x 216.83765pt on input lin
-e 182.
+e 189.
  [10 <./horizontal.png (PNG copy)> <./vertical.png (PNG copy)>]
-[11] (document.aux) ) 
+(segmentation.m [11])
+<ballg.png, id=64, 782.925pt x 586.19pt>
+File: ballg.png Graphic file (type png)
+<use ballg.png>
+Package pdftex.def Info: ballg.png  used on input line 202. on input line 202.
+Package pdftex.def Info: Requested size: 216.84248pt x 162.35211pt on input lin
+e 202.
+<ballth.png, id=65, 782.925pt x 586.19pt>
+File: ballth.png Graphic file (type png)
+<use ballth.png>
+Package pdftex.def Info: ballth.png  used on input line 207. on input line 207.
+
+Package pdftex.def Info: Requested size: 216.84248pt x 162.35211pt on input lin
+e 207.
+<ballthl.png, id=66, 782.925pt x 586.19pt>
+File: ballthl.png Graphic file (type png)
+<use ballthl.png>
+Package pdftex.def Info: ballthl.png  used on input line 214. on input line 214
+.
+Package pdftex.def Info: Requested size: 216.84248pt x 162.35211pt on input lin
+e 214.
+ [12 <./ballg.png (PNG copy)> <./ballth.png (PNG copy)> <./ballthl.png (PNG cop
+y)>] 
+AED: lastpage setting LastPage
+(document.aux) ) 
 Here is how much of TeX's memory you used:
- 4838 strings out of 493312
- 74473 string characters out of 3138898
- 243216 words of memory out of 3000000
- 8305 multiletter control sequences out of 15000+200000
- 8540 words of font info for 31 fonts, out of 3000000 for 9000
+ 5039 strings out of 493312
+ 77081 string characters out of 3138898
+ 247953 words of memory out of 3000000
+ 8491 multiletter control sequences out of 15000+200000
+ 8893 words of font info for 32 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,8n,40p,277b,1454s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/c
-ourier/ucrb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on document.pdf (11 pages, 2875053 bytes).
+ 41i,11n,43p,277b,1565s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsl10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrb8a
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrro8a.pfb>
+Output written on document.pdf (12 pages, 3161889 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
+ 100 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

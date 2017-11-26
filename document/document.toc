@@ -1,13 +1,13 @@
 \nobreakspace {}\hfill \textbf {\relax \fontsize {17.28}{22}\selectfont Page}\par 
-\contentsline {section}{\numberline {1}Assignment 1}{ii}
-\contentsline {subsection}{\numberline {1.1}Negative of an image}{ii}
-\contentsline {section}{\numberline {2}Assignment 2}{iii}
-\contentsline {subsection}{\numberline {2.1}Plotting the histogram of an image}{iii}
-\contentsline {subsection}{\numberline {2.2}Histogram equalization}{iv}
-\contentsline {section}{\numberline {3}Assignment 3}{v}
-\contentsline {subsection}{\numberline {3.1}Mean Filter}{v}
-\contentsline {subsection}{\numberline {3.2}Median Filter}{vii}
-\contentsline {subsection}{\numberline {3.3}Min \& Max Filter}{viii}
-\contentsline {section}{\numberline {4}Assignment 4}{ix}
-\contentsline {subsection}{\numberline {4.1}Edge Detection}{ix}
-\contentsline {subsection}{\numberline {4.2}Segmentation}{xi}
+\contentsline {section}{\numberline {1}Assignment 1}{2}
+\contentsline {subsection}{\numberline {1.1}Negative of an image}{2}
+\contentsline {section}{\numberline {2}Assignment 2}{3}
+\contentsline {subsection}{\numberline {2.1}Plotting the histogram of an image}{3}
+\contentsline {subsection}{\numberline {2.2}Histogram equalization}{4}
+\contentsline {section}{\numberline {3}Assignment 3}{5}
+\contentsline {subsection}{\numberline {3.1}Mean Filter}{5}
+\contentsline {subsection}{\numberline {3.2}Median Filter}{7}
+\contentsline {subsection}{\numberline {3.3}Min \& Max Filter}{8}
+\contentsline {section}{\numberline {4}Assignment 4}{9}
+\contentsline {subsection}{\numberline {4.1}Edge Detection}{9}
+\contentsline {subsection}{\numberline {4.2}Segmentation}{11}

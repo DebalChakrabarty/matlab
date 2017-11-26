@@ -1,0 +1,84 @@
+
+
+              
+                %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% University Assignment Title Page 
+% LaTeX Template
+% Version 1.0 (27/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% WikiBooks (http://en.wikibooks.org/wiki/LaTeX/Title_Creation)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% 
+% Instructions for using this template:
+% This title page is capable of being compiled as is. This is not useful for 
+% including it in another document. To do this, you have two options: 
+%
+% 1) Copy/paste everything between \begin{document} and \end{document} 
+% starting at \begin{titlepage} and paste this into another LaTeX file where you 
+% want your title page.
+% OR
+% 2) Remove everything outside the \begin{titlepage} and \end{titlepage} and 
+% move this file to the same directory as the LaTeX file you wish to add it to. 
+% Then add \input{./title_page_1.tex} to your LaTeX file where you want your
+% title page.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\title{Title page with logo}
+%----------------------------------------------------------------------------------------
+%   PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt]{article}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+
+\begin{document}
+
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+\center % Center everything on the page
+ 
+%----------------------------------------------------------------------------------------
+%   HEADING SECTIONS
+%----------------------------------------------------------------------------------------
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=1.4]{makaut.png}\\[1cm]
+\end{figure}
+
+\HRule \\[0.4cm]
+{ \huge \bfseries Image Processing\\  (IT-793C)}\\[0.03cm] % Title of your document
+\HRule \\[1.5cm]
+
+ 
+
+
+% If you don't want a supervisor, uncomment the two lines below and remove the section above
+\vspace{0.4in}
+\begin{flushleft}
+	\Large {Name:}
+    \textsc{Debal Chakrabarty}\\[0.3cm]
+    \Large {Roll:} \textsc{30000214007} \\[0.3cm]
+    \Large {Reg:} \textsc{143000110036} \\[0.3cm]
+    \Large {Semester:} \textsc{$7^{th}$} \\[0.3cm]
+    \Large {Stream:} \textsc{information technology} \\[0.2cm]
+\end{flushleft}
+
+\vfill % Fill the rest of the page with whitespace
+
+\end{titlepage}
+
+\end{document}
