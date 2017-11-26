@@ -19,7 +19,7 @@
 	breaklines=true,
 	frame=single,
 	xleftmargin=19pt,
-	keywords={imread,rgb2gray,for,end,plot,imshow,imtool,size,zeros,imwrite}}
+	keywords={imread,rgb2gray,for,end,plot,imshow,imtool,size,zeros,imwrite,subplot,double,uint8,title,max,min}}
 \usepackage{tocloft}
 \renewcommand\cftsecfont{\LARGE}
 \renewcommand\cftsecpagefont{\LARGE}
@@ -27,12 +27,14 @@
 
 \begin{document}
 	{
+		
 		\doublespacing
+		
 		\pagenumbering{roman}
 		{
 			\renewcommand\contentsname{\Huge Contents}
 			\renewcommand\cftsubsecfont{\large}
-			\vspace{0.4in}
+			
 			\doublespacing
 			\tableofcontents
 			\addtocontents{toc}{~\hfill\textbf{\LARGE Page}\par}
@@ -44,6 +46,7 @@
 	\vspace{0.2in}
 	\subsection{Negative of an image}
 	\indent	\lstinputlisting{negate.m}
+	\vspace{1in}
 	\begin{figure}[h!]
 		\begin{subfigure}[h]{0.4\linewidth}
 			\includegraphics[width=\linewidth]{original}
@@ -62,14 +65,14 @@
 	\subsection{Plotting the histogram of an image}
 	\vspace{0.2in}
 		\lstinputlisting{his.m}
-		\vspace{0.4in}
+		\vspace{1.4in}
 		\begin{figure}[h!]
 			\begin{subfigure}[h]{0.4\linewidth}
-				\includegraphics[width=\linewidth]{original}
+				\includegraphics[scale=0.45,height=0.9\linewidth]{original}
 				\caption{Original Image}
 			\end{subfigure}
 			\hfill
-			\begin{subfigure}[h]{0.52\linewidth}
+			\begin{subfigure}[h]{0.57\linewidth}
 				\includegraphics[width=\linewidth]{histogram}
 				\caption{Histogram of the Image}
 			\end{subfigure}%
@@ -95,8 +98,9 @@
 	\begin{figure}[h!]
 		\begin{subfigure}[h]{0.6\linewidth}
 			\includegraphics[scale=1]{Lenna}
-			\caption{Original Image}
+			\caption{Original Low contrast Image}
 		\end{subfigure}
+		\hfill
 		\begin{subfigure}[h]{0.6\linewidth}
 			\includegraphics[scale=0.76]{myGray}
 			\caption{Equalized image}
@@ -107,12 +111,12 @@
 	\subsection{Mean Filter}
 	\lstinputlisting{fil.m}
 	\begin{figure}[b!]
-		\begin{subfigure}[h]{0.5\linewidth}
+		\begin{subfigure}[h]{0.45\linewidth}
 			\includegraphics[width=\linewidth]{grayscale}
 			\caption{Original Image}
 		\end{subfigure}
 		\hfill
-		\begin{subfigure}[h]{0.5\linewidth}
+		\begin{subfigure}[h]{0.45\linewidth}
 			\includegraphics[width=\linewidth]{meanfilter}
 			\caption{Mean filtered image}
 		\end{subfigure}%
@@ -122,22 +126,67 @@
 	\subsection{Median Filter}
 	\vspace{0.2in}
 	\lstinputlisting{medfilter.m}
-		\begin{figure}[h!]
-		\begin{subfigure}[h]{0.5\linewidth}
+	\begin{figure}[h!]
+		\begin{subfigure}[h]{0.45\linewidth}
 			\includegraphics[width=\linewidth]{salt}
 			\caption{Original Image}
 		\end{subfigure}
 		\hfill
-		\begin{subfigure}[h]{0.5\linewidth}
+		\begin{subfigure}[h]{0.45\linewidth}
 			\includegraphics[width=\linewidth]{medianfilt}
 			\caption{Median filtered image}
 		\end{subfigure}%
 		\caption{Noisy \& Filtered Image}
 	\end{figure}
 	\newpage
-	\subsection{Min Filter}
+	\subsection{Min \& Max  Filter}
+	\vspace{0.05in}
+	\lstinputlisting{maxminfilter.m}
 	\vspace{0.2in}
+	\begin{figure}[h!]
+		\begin{subfigure}[h!]{0.3\linewidth}
+			\includegraphics[width=\linewidth]{grayscale}
+			\caption{Original grayscale image}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[h!]{0.3\linewidth}
+			\includegraphics[width=\linewidth]{maxfilter}
+			\caption{Max filtered Image}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[h!]{0.3\linewidth}
+			\includegraphics[width=\linewidth]{minfilter}
+			\caption{Min filtered Image}
+		\end{subfigure}%
+		\caption{Min \& Max Filtered Images}
+	\end{figure}
 	\newpage
-	\subsection{Max Filter}
+	\section{Assignment 4}
 	\vspace{0.2in}
+	\subsection{Edge Detection}
+	\vspace{0.2in}
+	\lstinputlisting{edge.m}
+	\vspace{0.4in}
+	\begin{figure}[h!]
+		\begin{subfigure}[h!]{0.45\linewidth}
+			\includegraphics[width=\linewidth]{grayscale}
+			\caption{Original grayscale image}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[h!]{0.45\linewidth}
+			\includegraphics[width=\linewidth]{horizontal}
+			\caption{Horizontal edge}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[h!]{0.45\linewidth}
+			\includegraphics[width=\linewidth]{vertical}
+			\caption{Vertical edge}
+		\end{subfigure}%
+		\caption{Min \& Max Filtered Images}
+	\end{figure}
+	\newpage
+	
+	\subsection{Segmentation}
+	
+	\newpage
 \end{document}
