@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.25)  26 NOV 2017 21:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.25)  27 NOV 2017 11:46
 entering extended mode
 **./document.tex
 (document.tex
@@ -199,18 +199,18 @@ LaTeX Warning: Unused global option(s):
 (document.aux)
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -313,7 +313,7 @@ G,.JBIG2,.JB2,.eps]
 \c@lstlisting=\count109
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 34.
+(lastpage)             ! on input line 36.
 
 (document.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -327,7 +327,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {C:/Users/ratul/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 54.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 56.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) (negate.m
@@ -337,66 +337,66 @@ LaTeX Font Info:    Font shape `OT1/pcr/bx/n' in size <14.4> not available
 <original.png, id=9, 386.19281pt x 385.44pt>
 File: original.png Graphic file (type png)
 <use original.png>
-Package pdftex.def Info: original.png  used on input line 58. on input line 58.
+Package pdftex.def Info: original.png  used on input line 60. on input line 60.
 
 Package pdftex.def Info: Requested size: 192.74724pt x 192.37253pt on input lin
-e 58.
+e 60.
 <negative.png, id=10, 385.44pt x 384.6872pt>
 File: negative.png Graphic file (type png)
 <use negative.png>
-Package pdftex.def Info: negative.png  used on input line 63. on input line 63.
+Package pdftex.def Info: negative.png  used on input line 65. on input line 65.
 
 Package pdftex.def Info: Requested size: 192.74724pt x 192.3666pt on input line
- 63.
+ 65.
 
 [2 <./original.png> <./negative.png>] (his.m)
 File: original.png Graphic file (type png)
 <use original.png>
-Package pdftex.def Info: original.png  used on input line 77. on input line 77.
+Package pdftex.def Info: original.png  used on input line 79. on input line 79.
 
 Package pdftex.def Info: Requested size: 173.78514pt x 173.4464pt on input line
- 77.
+ 79.
 <histogram.png, id=20, 421.575pt x 316.18124pt>
 File: histogram.png Graphic file (type png)
 <use histogram.png>
-Package pdftex.def Info: histogram.png  used on input line 82. on input line 82
+Package pdftex.def Info: histogram.png  used on input line 84. on input line 84
 .
 Package pdftex.def Info: Requested size: 274.67253pt x 206.00746pt on input lin
-e 82.
+e 84.
  [3 <./histogram.png (PNG copy)>]
 (histequal.m) [4]
 <hist1.png, id=27, 421.575pt x 316.18124pt>
 File: hist1.png Graphic file (type png)
 <use hist1.png>
-Package pdftex.def Info: hist1.png  used on input line 95. on input line 95.
+Package pdftex.def Info: hist1.png  used on input line 97. on input line 97.
 Package pdftex.def Info: Requested size: 126.47346pt x 94.8551pt on input line 
-95.
+97.
 <hist2.png, id=28, 1445.4pt x 725.71124pt>
 File: hist2.png Graphic file (type png)
 <use hist2.png>
-Package pdftex.def Info: hist2.png  used on input line 99. on input line 99.
+Package pdftex.def Info: hist2.png  used on input line 101. on input line 101.
 Package pdftex.def Info: Requested size: 578.14977pt x 290.27936pt on input lin
-e 99.
+e 101.
 
-Overfull \hbox (117.8676pt too wide) in paragraph at lines 94--102
+Overfull \hbox (117.8676pt too wide) in paragraph at lines 96--104
 []$[]$ $[]$ 
  []
 
 <Lenna.png, id=29, 192.72pt x 192.72pt>
 File: Lenna.png Graphic file (type png)
 <use Lenna.png>
-Package pdftex.def Info: Lenna.png  used on input line 106. on input line 106.
+Package pdftex.def Info: Lenna.png  used on input line 108. on input line 108.
 Package pdftex.def Info: Requested size: 192.71951pt x 192.71951pt on input lin
-e 106.
+e 108.
 <myGray.png, id=30, 256.96pt x 256.96pt>
 File: myGray.png Graphic file (type png)
 <use myGray.png>
-Package pdftex.def Info: myGray.png  used on input line 111. on input line 111.
+Package pdftex.def Info: myGray.png  used on input line 113. on input line 113.
 
 Package pdftex.def Info: Requested size: 195.2877pt x 195.2877pt on input line 
-111.
+113.
 
-Overfull \hbox (98.60316pt too wide) in paragraph at lines 105--114
+Overfull \hbox (98.60316pt too wide) in paragraph at lines 107--116
 []$[]$  $[]$ 
  []
 
@@ -405,17 +405,17 @@ Gray.png (PNG copy)>])
 <grayscale.png, id=35, 513.92pt x 513.92pt>
 File: grayscale.png Graphic file (type png)
 <use grayscale.png>
-Package pdftex.def Info: grayscale.png  used on input line 121. on input line 1
-21.
+Package pdftex.def Info: grayscale.png  used on input line 123. on input line 1
+23.
 Package pdftex.def Info: Requested size: 216.84248pt x 216.84082pt on input lin
-e 121.
+e 123.
 <meanfilter.png, id=36, 386.94562pt x 386.94562pt>
 File: meanfilter.png Graphic file (type png)
 <use meanfilter.png>
-Package pdftex.def Info: meanfilter.png  used on input line 126. on input line 
-126.
+Package pdftex.def Info: meanfilter.png  used on input line 128. on input line 
+128.
 Package pdftex.def Info: Requested size: 216.84248pt x 216.84158pt on input lin
-e 126.
+e 128.
  [6 <./grayscale.png (PNG copy)> <./meanfilter.png>]
 (medfilter.m
 LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <14.4> not available
@@ -424,82 +424,82 @@ LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <14.4> not available
 <salt.png, id=41, 513.92pt x 513.92pt>
 File: salt.png Graphic file (type png)
 <use salt.png>
-Package pdftex.def Info: salt.png  used on input line 137. on input line 137.
+Package pdftex.def Info: salt.png  used on input line 139. on input line 139.
 Package pdftex.def Info: Requested size: 216.84248pt x 216.84082pt on input lin
-e 137.
+e 139.
 <medianfilt.png, id=42, 515.9275pt x 515.9275pt>
 File: medianfilt.png Graphic file (type png)
 <use medianfilt.png>
-Package pdftex.def Info: medianfilt.png  used on input line 142. on input line 
-142.
+Package pdftex.def Info: medianfilt.png  used on input line 144. on input line 
+144.
 Package pdftex.def Info: Requested size: 216.84248pt x 216.83765pt on input lin
-e 142.
+e 144.
  [7 <./salt.png (PNG copy)> <./medianfilt.png (PNG copy)>]
 (maxminfilter.m)
 File: grayscale.png Graphic file (type png)
 <use grayscale.png>
-Package pdftex.def Info: grayscale.png  used on input line 154. on input line 1
-54.
+Package pdftex.def Info: grayscale.png  used on input line 156. on input line 1
+56.
 Package pdftex.def Info: Requested size: 144.5641pt x 144.56316pt on input line
- 154.
+ 156.
 <maxfilter.png, id=48, 515.9275pt x 515.9275pt>
 File: maxfilter.png Graphic file (type png)
 <use maxfilter.png>
-Package pdftex.def Info: maxfilter.png  used on input line 159. on input line 1
-59.
+Package pdftex.def Info: maxfilter.png  used on input line 161. on input line 1
+61.
 Package pdftex.def Info: Requested size: 144.5641pt x 144.56105pt on input line
- 159.
+ 161.
 <minfilter.png, id=49, 515.9275pt x 515.9275pt>
 File: minfilter.png Graphic file (type png)
 <use minfilter.png>
-Package pdftex.def Info: minfilter.png  used on input line 164. on input line 1
-64.
+Package pdftex.def Info: minfilter.png  used on input line 166. on input line 1
+66.
 Package pdftex.def Info: Requested size: 144.5641pt x 144.56105pt on input line
- 164.
+ 166.
  [8 <./maxfilter.png (PNG copy)> <./minfilter.png (PNG copy)>]
 (edge.m [9])
 File: grayscale.png Graphic file (type png)
 <use grayscale.png>
-Package pdftex.def Info: grayscale.png  used on input line 178. on input line 1
-78.
+Package pdftex.def Info: grayscale.png  used on input line 180. on input line 1
+80.
 Package pdftex.def Info: Requested size: 216.84248pt x 216.84082pt on input lin
-e 178.
+e 180.
 <horizontal.png, id=56, 515.9275pt x 515.9275pt>
 File: horizontal.png Graphic file (type png)
 <use horizontal.png>
-Package pdftex.def Info: horizontal.png  used on input line 183. on input line 
-183.
+Package pdftex.def Info: horizontal.png  used on input line 185. on input line 
+185.
 Package pdftex.def Info: Requested size: 216.84248pt x 216.83765pt on input lin
-e 183.
+e 185.
 <vertical.png, id=57, 515.9275pt x 515.9275pt>
 File: vertical.png Graphic file (type png)
 <use vertical.png>
-Package pdftex.def Info: vertical.png  used on input line 189. on input line 18
-9.
+Package pdftex.def Info: vertical.png  used on input line 191. on input line 19
+1.
 Package pdftex.def Info: Requested size: 216.84248pt x 216.83765pt on input lin
-e 189.
+e 191.
  [10 <./horizontal.png (PNG copy)> <./vertical.png (PNG copy)>]
 (segmentation.m [11])
 <ballg.png, id=64, 782.925pt x 586.19pt>
 File: ballg.png Graphic file (type png)
 <use ballg.png>
-Package pdftex.def Info: ballg.png  used on input line 202. on input line 202.
+Package pdftex.def Info: ballg.png  used on input line 204. on input line 204.
 Package pdftex.def Info: Requested size: 216.84248pt x 162.35211pt on input lin
-e 202.
+e 204.
 <ballth.png, id=65, 782.925pt x 586.19pt>
 File: ballth.png Graphic file (type png)
 <use ballth.png>
-Package pdftex.def Info: ballth.png  used on input line 207. on input line 207.
+Package pdftex.def Info: ballth.png  used on input line 209. on input line 209.
 
 Package pdftex.def Info: Requested size: 216.84248pt x 162.35211pt on input lin
-e 207.
+e 209.
 <ballthl.png, id=66, 782.925pt x 586.19pt>
 File: ballthl.png Graphic file (type png)
 <use ballthl.png>
-Package pdftex.def Info: ballthl.png  used on input line 214. on input line 214
+Package pdftex.def Info: ballthl.png  used on input line 216. on input line 216
 .
 Package pdftex.def Info: Requested size: 216.84248pt x 162.35211pt on input lin
-e 214.
+e 216.
  [12 <./ballg.png (PNG copy)> <./ballth.png (PNG copy)> <./ballthl.png (PNG cop
 y)>] 
 AED: lastpage setting LastPage
@@ -507,7 +507,7 @@ AED: lastpage setting LastPage
 Here is how much of TeX's memory you used:
  5039 strings out of 493312
  77081 string characters out of 3138898
- 247953 words of memory out of 3000000
+ 251009 words of memory out of 3000000
  8491 multiletter control sequences out of 15000+200000
  8893 words of font info for 32 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -521,7 +521,7 @@ public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmsl10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrb8a
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on document.pdf (12 pages, 3161889 bytes).
+Output written on document.pdf (12 pages, 3162763 bytes).
 PDF statistics:
  100 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
