@@ -12,6 +12,7 @@
 \usepackage{setspace}
 \usepackage{fancyhdr}
 \usepackage{lastpage}
+\usepackage{pxfonts}
 \pagestyle{fancy}
 \fancyfoot{} % clear all footer fields
 \fancyfoot[LE,RO]{\thepage}           % page number in "outer" position of footer line
@@ -28,11 +29,13 @@
 	showstringspaces=false,
 	keywords={imread,rgb2gray,for,end,plot,imshow,imtool,size,zeros,imwrite,subplot,double,uint8,title,max,min,abs}
 }
+
 \usepackage{tocloft}
 \renewcommand\cftsecfont{\LARGE}
 \renewcommand\cftsecpagefont{\LARGE}
 \renewcommand\cftsecafterpnum{\par\addvspace{6pt}}
-
+\setlength\cftbeforesubsecskip{25pt}
+\setlength\cftaftertoctitleskip{25pt}
 \begin{document}
 	{
 		
@@ -191,7 +194,7 @@
 			\includegraphics[width=\linewidth]{vertical}
 			\caption{Vertical edge}
 		\end{subfigure}%
-		\caption{Min \& Max Filtered Images}
+		\caption{Horizontal \& Vertical edge detection}
 	\end{figure}
 	\newpage
 	
@@ -216,7 +219,7 @@
 			\includegraphics[width=\linewidth]{ballthl}
 			\caption{foreground object region}
 		\end{subfigure}%
-		\caption{Min \& Max Filtered Images}
+		\caption{Segmentation}
 	\end{figure}
 	\newpage
 \end{document}
