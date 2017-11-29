@@ -4,17 +4,17 @@ b=a;
 
 [row,col]=size(b);
 
-c1=zeros(1,col);
-r1=zeros(row+2,1);
-imr=[c1;b;c1];
-imr2=[r1,imr,r1];
-imr2=double(imr2);
-
-mask1=[1 0 -1;1 0 -1;1 0 -1];
-mask2=[1 1 1;0 0 0;-1 -1 -1];
+c1=zeros(1,col); 
+r1=zeros(row+2,1); 
+imr=[c1;b;c1]; %row padding
+imr2=[r1,imr,r1];%column padding
+imr2=double(imr2); 
+ 
+mask1=[1 0 -1;1 0 -1;1 0 -1]; %vertical prewitt mask
+mask2=[1 1 1;0 0 0;-1 -1 -1]; %horizontal prewitt mask
 [r,c]=size(imr2);
-imr3=zeros(r,c);
-imr4=zeros(r,c);
+imr3=zeros(r,c); %filled with black pixels
+imr4=zeros(r,c); %filled with black pixels
 
 for i = 2:r-1
     for j = 2:c-1
