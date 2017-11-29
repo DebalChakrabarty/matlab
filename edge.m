@@ -22,8 +22,8 @@ for i = 2:r-1
      val1=0;
         for i1 = -1:1 
             for j1 = -1:1
-                val = val + imr2(i+i1,j+j1).*mask1(i1+2,j1+2);
-                val1 = val1 + imr2(i+i1,j+j1).*mask2(i1+2,j1+2);
+                val = val + imr2(i+i1,j+j1)*mask1(i1+2,j1+2);
+                val1 = val1 + imr2(i+i1,j+j1)*mask2(i1+2,j1+2);
             end
         end
         imr3(i-1,j-1)=val;
