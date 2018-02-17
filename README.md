@@ -1,4 +1,4 @@
-# 7th semester matlab assignments 
+# 7th semester image processing lab assignments 
 
 ## Assignments
 
